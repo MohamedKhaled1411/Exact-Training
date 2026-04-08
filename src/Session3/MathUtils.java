@@ -1,6 +1,6 @@
 package Session3;
 
-public class MathUtilities
+public class MathUtils
 {
     public static void main (String args[])
     {
