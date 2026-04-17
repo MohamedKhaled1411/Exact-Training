@@ -1,2 +1,2 @@
 Exact-Digital Solution internship.\
-Java fundementals and Spring Boot.
+Java fundamentals and Spring Boot.
