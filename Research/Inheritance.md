@@ -1,18 +1,33 @@
 # OPP Relationships
 
 ***
+### Inheritance (IS-A)
+>It's the relationship of a class that inherit (extends) another class (superclass) while the subclass is dependent on
+the superclass, the superclass isn't dependent on the subclass.
+- Use Case: Creating a class that extends another class and can use its methods.
+- Relationship Direction: Unidirectional only (subclass is a superclass, but not the opposite).
+- Cardinality: one-to-one, one-to-many, many-to-one or many-to-many.
+- Example: Cat is an animal.
+<details>
+<summary>Code</summary>
+
+```java
+
+```
+</details>
+
+***
 ### Association (USES-A)
 >It's the relationship between two or more classes that doesn't depend on each other but can use each other's methods,
->but with no ownership of one class to the other. 
+>but with no ownership of one class to the other.
 - Use Case: Creating an object from both classes and associate through them.
 - Relationship Direction: Unidirectional or Bidirectional (both classes can use each other).
 - Cardinality: one-to-one, one-to-many, many-to-one or many-to-many.
 - Example: Man uses a tool.
 <details>
-<summary>Code Example</summary>
+<summary>Code</summary>
 
 ```java
-
 // Man Class
 class Man
 {
@@ -38,7 +53,7 @@ class Tool
     }
 }
 
-// Association between classes using objects
+// Association.java between classes using objects
 class Association
 {
     public static void main(String[] args)
@@ -54,15 +69,6 @@ class Association
 </details>
 
 ***
-### Inheritance (IS-A)
->It's the relationship of a class that inherit (extends) another class (superclass) while the subclass is dependent on
-the superclass, the superclass isn't dependent on the subclass.
-- Use Case: Creating a class that extends another class and can use its methods.
-- Relationship Direction: Unidirectional only (subclass is a superclass, but not the opposite).
-- Cardinality: one-to-one, one-to-many, many-to-one or many-to-many.
-- Example: Cat is an animal.
-
-***
 ### Aggregation (HAS-A)
 >It's a type of association relationship. The classes are independent, 
 >where each class can exist on its own, with shared ownership.
@@ -71,6 +77,13 @@ the superclass, the superclass isn't dependent on the subclass.
 - Relationship Direction: Unidirectional (superclass has an object of subclass, but not the opposite).
 - Cardinality: one-to-one, one-to-many, many-to-many or many-to-many.
 - Example: Computer has a processor.
+<details>
+<summary>Code</summary>
+
+```java
+
+```
+</details>
 
 ***
 ### Composition (PART-OF)
@@ -81,6 +94,13 @@ the superclass, the superclass isn't dependent on the subclass.
 - Relationship Direction: Unidirectional (subclass is part of superclass, but not the opposite).
 - Cardinality: one-to-one, one-to-many.
 - Example: Room is part of a home.
+<details>
+<summary>Code</summary>
+
+```java
+
+```
+</details>
 
 
 

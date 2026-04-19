@@ -2,11 +2,31 @@
 
 ***
 ### Up-Casting
->here...
+>It's typecasting of a subclass to a superclass, to use only the methods of superclass
+> but with the implementation of the subclass (override), keeping in mind that subclass inherits all superclass methods.
+- Use Case: Creating a subclass object with the type of its superclass.
+- Example: An animals (superclass) makes sound, but each animal (subclass) make their unique sound.
+<details>
+<summary>Code</summary>
+
+```java
+
+```
+</details>
 
 ***
 ### Down-Casting
->here...
+>It's typecasting of a superclass to a subclass, to access and use subclass methods, this type requires carful handling,
+> keeping in mind that superclass doesn't inherit subclasses methods.
+- Use Case:
+- Example:
+<details>
+<summary>Code</summary>
+
+```java
+
+```
+</details>
 
 
 
