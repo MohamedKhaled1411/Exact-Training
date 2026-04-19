@@ -146,5 +146,4 @@ class Association
 - [HAS-A vs IS-A in OOP C#](https://dev.to/tak089/has-a-vs-is-a-in-oop-c-3m30)
 </details>
 
-###### _Mohamed Khaled_
 ###### _April 2026_

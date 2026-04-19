@@ -40,5 +40,4 @@
 - [Upcasting and Downcasting in Java: An Overview of Typecasting](https://dev.to/dhanush9952/upcasting-and-downcasting-in-java-an-overview-of-typecasting-3djl)
 </details>
 
-###### _Mohamed Khaled_
 ###### _April 2026_
