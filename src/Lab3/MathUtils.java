@@ -1,4 +1,4 @@
-package Session3;
+package Lab3;
 
 public class MathUtils
 {

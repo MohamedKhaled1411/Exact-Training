@@ -1,4 +1,4 @@
-package Session2;
+package Lab2;
 
 public class TimesTable
 {

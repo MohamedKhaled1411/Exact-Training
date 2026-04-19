@@ -1,4 +1,4 @@
-package Session1;
+package Lab1;
 
 public class TypeCasting
 {

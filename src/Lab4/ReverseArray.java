@@ -1,4 +1,4 @@
-package Session4;
+package Lab4;
 
 public class ReverseArray
 {
